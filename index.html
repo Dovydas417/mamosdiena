@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Greta – Vikipedija</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png">
     <style>
         body {
-            font-family: 'Linux Libertine', Georgia, Times, serif;
-            background-color: #f5f5f5;
-            color: #202122;
+            font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+            background-color: #f6f6f6;
             margin: 0;
             padding: 0;
         }
+        #topbar {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #a2a9b1;
+            padding: 0.5em 1em;
+            font-size: 0.9em;
+            display: flex;
+            justify-content: space-between;
+        }
+        #left-menu {
+            width: 180px;
+            background-color: #f8f9fa;
+            border-right: 1px solid #a2a9b1;
+            padding: 1em;
+            float: left;
+            height: 100%;
+            box-sizing: border-box;
+        }
         #content {
-            max-width: 960px;
-            margin: 2em auto;
-            background: white;
+            margin-left: 200px;
             padding: 2em;
-            border: 1px solid #a2a9b1;
+            background-color: white;
         }
         h1 {
             font-size: 2em;
             border-bottom: 1px solid #a2a9b1;
-            margin-bottom: 0.5em;
         }
         .infobox {
             float: right;
@@ -36,9 +50,6 @@
             background-color: #cedff2;
             text-align: center;
         }
-        ul {
-            padding-left: 1.5em;
-        }
         a {
             color: #0645ad;
             text-decoration: none;
@@ -46,9 +57,47 @@
         a:hover {
             text-decoration: underline;
         }
+        .logo {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .logo img {
+            width: 120px;
+        }
+        ul {
+            padding-left: 1.2em;
+        }
     </style>
 </head>
 <body>
+    <div id="topbar">
+        <div>
+            <a href="#">Prisijungti</a> | <a href="#">Sukurti paskyrą</a>
+        </div>
+        <div>
+            <a href="#">Diskusija</a> | <a href="#">Skaityti</a> | <a href="#">Keisti</a> | <a href="#">Peržiūrėti istoriją</a>
+        </div>
+    </div>
+
+    <div id="left-menu">
+        <div class="logo">
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Wikipedia_wordmark.svg/320px-Wikipedia_wordmark.svg.png" alt="Wikipedia logotipas"></a>
+        </div>
+        <div>
+            <b>Turinys</b><br>
+            <a href="#">Pagrindinis</a><br>
+            <a href="#">Naujausi pakeitimai</a><br>
+            <a href="#">Atsitiktinis straipsnis</a><br>
+        </div>
+        <br>
+        <div>
+            <b>Įrankiai</b><br>
+            <a href="#">Nuorodos čia</a><br>
+            <a href="#">Susiję puslapiai</a><br>
+            <a href="#">Specialusis puslapis</a><br>
+        </div>
+    </div>
+
     <div id="content">
         <h1>Greta</h1>
 
@@ -74,26 +123,31 @@
                     </ul>
                 </td>
             </tr>
+            <tr>
+                <td><b>Partneris</b></td>
+                <td>Renatas (g. 1991)</td>
+            </tr>
         </table>
 
-        <p><b>Greta</b> (gim. 1993 m.) yra trijų vaikų mama ir, daugelio manymu, geriausia mama pasaulyje. Ji yra žinoma dėl savo begalinės meilės, rūpestingumo ir atsidavimo savo vaikams – Dovydui, Kamilei ir Emilei.</p>
+        <p><strong>Greta</strong> (gim. 1993 m.) – trijų vaikų mama, dažnai vadinama geriausia mama pasaulyje. Ji garsėja savo nuoširdumu, rūpesčiu ir begaline meile vaikams – Dovydui, Kamilei ir Emilei.</p>
 
-        <p>Greta geba suderinti daugybę kasdienių pareigų su didele šiluma ir meile. Jos šeima ją vertina kaip tikrą įkvėpimą ir palaikymo šaltinį. Ji visada randa laiko savo vaikams, nepaisant jokių iššūkių.</p>
-
-        <p>Jos namai pilni juoko, saugumo ir meilės – vieta, kur kiekvienas jaučiasi laukiamas. Gretos stiprybė, kantrybė ir atsidavimas šeimai daro ją tikra supermama.</p>
+        <p>Greta kiekvieną dieną įkvepia savo šeimą rūpestingumu ir stiprybe. Jos buvimas sukuria saugią ir mylinčią aplinką, kurioje jos vaikai gali augti ir klestėti.</p>
 
         <h2>Šeima</h2>
         <ul>
-            <li><b>Dovydas</b> – vyriausias sūnus</li>
-            <li><b>Kamilė</b> – vidurinė dukra</li>
-            <li><b>Emilė</b> – jauniausia dukra</li>
+            <li><strong>Dovydas</strong> – vyriausias sūnus</li>
+            <li><strong>Kamilė</strong> – vidurinė dukra</li>
+            <li><strong>Emilė</strong> – jauniausia dukra</li>
         </ul>
+
+        <h2>Tėvas</h2>
+        <p>Gretos partneris – <strong>Renatas</strong>, gimęs 1991 m. Jis yra rūpestingas ir atsidavęs tėtis, kartu su Greta auginantis jų tris vaikus. Renatas padeda kurti jaukius ir harmoningus namus, kuriuose viešpatauja meilė ir pagarba.</p>
 
         <h2>Žr. taip pat</h2>
         <ul>
             <li><a href="#">Motinystė</a></li>
-            <li><a href="#">Šeima</a></li>
-            <li><a href="#">Įkvėpimo šaltiniai</a></li>
+            <li><a href="#">Tėvystė</a></li>
+            <li><a href="#">Šeimos vertybės</a></li>
         </ul>
     </div>
 </body>
