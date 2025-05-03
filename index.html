@@ -6,10 +6,9 @@
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png">
     <style>
         body {
-            font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+            font-family: 'Linux Libertine', Georgia, Times, serif;
             background-color: #f6f6f6;
             margin: 0;
-            padding: 0;
         }
         #topbar {
             background-color: #f8f9fa;
@@ -25,17 +24,22 @@
             border-right: 1px solid #a2a9b1;
             padding: 1em;
             float: left;
-            height: 100%;
+            height: 100vh;
             box-sizing: border-box;
         }
         #content {
             margin-left: 200px;
             padding: 2em;
             background-color: white;
+            min-height: 100vh;
         }
         h1 {
             font-size: 2em;
             border-bottom: 1px solid #a2a9b1;
+        }
+        h2 {
+            border-bottom: 1px solid #ccc;
+            margin-top: 2em;
         }
         .infobox {
             float: right;
@@ -67,6 +71,9 @@
         ul {
             padding-left: 1.2em;
         }
+        p {
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
@@ -83,38 +90,24 @@
         <div class="logo">
             <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Wikipedia_wordmark.svg/320px-Wikipedia_wordmark.svg.png" alt="Wikipedia logotipas"></a>
         </div>
-        <div>
-            <b>Turinys</b><br>
-            <a href="#">Pagrindinis</a><br>
-            <a href="#">Naujausi pakeitimai</a><br>
-            <a href="#">Atsitiktinis straipsnis</a><br>
-        </div>
-        <br>
-        <div>
-            <b>Įrankiai</b><br>
-            <a href="#">Nuorodos čia</a><br>
-            <a href="#">Susiję puslapiai</a><br>
-            <a href="#">Specialusis puslapis</a><br>
-        </div>
+        <b>Turinys</b><br>
+        <a href="#">Pagrindinis</a><br>
+        <a href="#">Atsitiktinis straipsnis</a><br>
+        <a href="#">Pagalba</a><br><br>
+
+        <b>Įrankiai</b><br>
+        <a href="#">Kas susiję</a><br>
+        <a href="#">Specialieji puslapiai</a><br>
     </div>
 
     <div id="content">
         <h1>Greta</h1>
 
         <table class="infobox">
-            <tr>
-                <th colspan="2"><b>Geriausia mama</b></th>
-            </tr>
-            <tr>
-                <td><b>Gimimo data</b></td>
-                <td>1993 m.</td>
-            </tr>
-            <tr>
-                <td><b>Amžius</b></td>
-                <td>32 metai</td>
-            </tr>
-            <tr>
-                <td><b>Vaikai</b></td>
+            <tr><th colspan="2"><b>Geriausia mama</b></th></tr>
+            <tr><td><b>Gimimo data</b></td><td>1993 m.</td></tr>
+            <tr><td><b>Amžius</b></td><td>32 metai</td></tr>
+            <tr><td><b>Vaikai</b></td>
                 <td>
                     <ul>
                         <li>Dovydas</li>
@@ -123,15 +116,12 @@
                     </ul>
                 </td>
             </tr>
-            <tr>
-                <td><b>Partneris</b></td>
-                <td>Renatas (g. 1991)</td>
-            </tr>
+            <tr><td><b>Partneris</b></td><td>Renatas (g. 1991)</td></tr>
         </table>
 
-        <p><strong>Greta</strong> (gim. 1993 m.) – trijų vaikų mama, dažnai vadinama geriausia mama pasaulyje. Ji garsėja savo nuoširdumu, rūpesčiu ir begaline meile vaikams – Dovydui, Kamilei ir Emilei.</p>
+        <p><strong>Greta</strong> (g. 1993 m.) – trijų vaikų mama, laikoma viena iš įkvepiančių šiuolaikinių motinų pavyzdžių. Ji išsiskiria šiluma, rūpesčiu ir gebėjimu sukurti jaukią šeimos aplinką. Greta yra Dovydo, Kamilės ir Emilės mama, gyvenanti kartu su savo partneriu Renatu.</p>
 
-        <p>Greta kiekvieną dieną įkvepia savo šeimą rūpestingumu ir stiprybe. Jos buvimas sukuria saugią ir mylinčią aplinką, kurioje jos vaikai gali augti ir klestėti.</p>
+        <p>Kiekvieną dieną Greta demonstruoja, kad motinystė – ne tik pareiga, bet ir kūryba. Ji puoselėja vaikų emocinę gerovę, lavina jų kūrybiškumą bei skatina smalsumą. Greta taip pat randa laiko sau, knygų skaitymui, bendruomenės veiklai bei aktyviam gyvenimo būdui.</p>
 
         <h2>Šeima</h2>
         <ul>
@@ -141,13 +131,16 @@
         </ul>
 
         <h2>Tėvas</h2>
-        <p>Gretos partneris – <strong>Renatas</strong>, gimęs 1991 m. Jis yra rūpestingas ir atsidavęs tėtis, kartu su Greta auginantis jų tris vaikus. Renatas padeda kurti jaukius ir harmoningus namus, kuriuose viešpatauja meilė ir pagarba.</p>
+        <p>Gretos partneris – <strong>Renatas</strong>, gimęs 1991 m. Jis yra aktyvus tėvas, atsakingas ir mylintis. Renatas palaiko stiprius šeimos ryšius ir yra neatsiejama vaikų auklėjimo dalis. Kartu su Greta jie kuria šiltą ir mylinčią šeimos aplinką.</p>
+
+        <h2>Asmeninis gyvenimas</h2>
+        <p>Greta vertina šeimos tradicijas, gamtą ir jaukius vakarus su vaikais. Ji dažnai organizuoja šeimos išvykas, gamina sveiką maistą ir dalyvauja mokyklos renginiuose. Artimieji ją apibūdina kaip kantrią, supratingą ir nepaprastai šviesią asmenybę.</p>
 
         <h2>Žr. taip pat</h2>
         <ul>
             <li><a href="#">Motinystė</a></li>
             <li><a href="#">Tėvystė</a></li>
-            <li><a href="#">Šeimos vertybės</a></li>
+            <li><a href="#">Šeimos gyvenimas</a></li>
         </ul>
     </div>
 </body>
